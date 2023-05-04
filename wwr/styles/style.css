@@ -50,8 +50,11 @@ footer a {
     text-decoration: none;
 }
 
-footer p a:hover {
+footer p {
     font-size: 1.2em;
+}
+
+footer p a:hover {
     text-decoration: underline;
 }
 
