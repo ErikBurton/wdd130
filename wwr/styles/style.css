@@ -11,11 +11,32 @@ header {
     background-color:#A3B18A;
 }
 
+nav {
+    background-color: greenyellow;
+}
+
+a {
+    color: white;
+}
+
+/* nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+} */
+
 nav a:hover {
     background-color:#588157;
     color: black;
 }
 
+h1 {
+    margin: 50px 0;
+}
+
+img {
+    border: 4px solid steelblue;
+}
 .book, .join {
     background-color:#3A5A40;
     color: #DAD7CD;
@@ -41,8 +62,8 @@ msg p {
 }
 
 footer {
-    background-color:#A3B18A;
-    color: #3A5A40;
+    background-color: steelblue;
+    color: white;
 }
 
 footer a {
@@ -52,6 +73,7 @@ footer a {
 
 footer p {
     font-size: 1.2em;
+    padding: 25px;
 }
 
 footer p a:hover {
@@ -62,11 +84,6 @@ footer a:hover {
     color: white;
 }
 
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
 
 #hero-msg h1 {
     text-align: center;

@@ -1,0 +1,16 @@
+.bottom-box {
+    background-color: grey;
+    width: 750px;
+    height: 250px;
+    display: block;
+    
+}
+
+.round-image {
+    border-radius: 50%;
+    width: 150px;
+    display: inline;
+    margin-top: 50px;
+          
+}
+  
