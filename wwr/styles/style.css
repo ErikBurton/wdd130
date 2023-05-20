@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100&family=Shadows+Into+Light&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +7,10 @@
 
 body {
     background-color:#588157;
+    font-family: "Pathway Extreme", "Shadows Into Light", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -19,17 +25,23 @@ a {
     color: white;
 }
 
-/* nav a {
+nav a {
     text-align: center;
     color: white;
     text-decoration: none;
-} */
+    padding: 35px;
+}
 
 nav a:hover {
     background-color:#588157;
     color: black;
 }
 
+.home-title {
+    font-family: "Pathway Extreme";
+    font-size: 2em;
+    margin-top: 10px;
+}
 h1 {
     margin: 50px 0;
 }
@@ -41,6 +53,10 @@ img {
     background-color:#3A5A40;
     color: #DAD7CD;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -57,13 +73,28 @@ img {
     color: #3A5A40;
 }
 
-msg p {
+.msg {
+    background-color: #3A5A40;
+    line-height: 1.5em;
+    padding: 35px;
+
+}
+
+. msg p {
     color: #588157;
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: steelblue;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a {
@@ -115,8 +146,21 @@ main section {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #588157;
+}
+
+main section img {
+    box-sizing: border-box;
 }
