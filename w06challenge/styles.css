@@ -1,0 +1,41 @@
+/* CSS styles for the webpage */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #B9B8B9;
+}
+
+.item {
+    padding: 20px;
+    text-align: center;
+    color: black;
+    align-self: center;
+}
+
+.item1 {
+    background-color: white;
+}
+
+.title {
+    margin: 0;
+    font-size: 100px;
+    text-align: center;    
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 50px;
+    color: #9c0e11;
+    text-align: center;
+    margin-bottom: 5px;
+ }
+
+
+
+
+
+
+
+
+
