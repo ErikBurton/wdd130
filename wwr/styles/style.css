@@ -3,8 +3,7 @@
 /* Typography */
 body {
     background-color: #fcfbfb;
-    /* font-family: "Pathway Extreme", "Shadows Into Light", sans-serif; */
-    font-family: Raleway, sans-serif;
+    font-family: "Pathway Extreme", "Shadows Into Light", sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -21,6 +20,10 @@ header {
     background-color:#A3B18A;
     display: grid;
     grid-template-columns: 150px auto;
+}
+
+.logo {
+    width: 80px;
 }
 
 #logo_link {
@@ -74,6 +77,10 @@ nav a:hover {
     margin-top: 100px;
 }
 
+.button-box {
+    text-align: center;
+}
+
 #hero-msg h1 {
     text-align: center;
 }
@@ -87,6 +94,11 @@ nav a:hover {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
 }
 
 .home-title {
@@ -130,17 +142,18 @@ h1 {
     padding: 35px;
     grid-column: 6 / 10;
     grid-row: 6 / 7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .msg p {
     color: white;
     font-size: 0.8em;
     padding-bottom: 15px;
+    font-family: "Shadows Into Light";
 }
 
 .msg h2 {
-    background-color:#DAD7CD;
-    color: #3A5A40;
+    color: #DAD7CD;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -183,22 +196,18 @@ main section img {
 .mountains {
     grid-column: 2 / 7;
     grid-row: 5 / 8;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .card-img {
     border: 10px solid #DAD7CD;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
-/* Are these 3 in the correct spot? */
-.logo {
-    width: 80px;
-}
-.button-box {
-    text-align: center;
-}
-.icon {
-    width: 80px;
-    padding-top: 10px;
+.card-img:hover {
+    opacity: .6;
+    transform: scaleX(1.1);
 }
 
 /* Footer */
@@ -232,4 +241,47 @@ footer p a:hover {
 
 footer a:hover {
     color: white;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
