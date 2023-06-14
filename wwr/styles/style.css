@@ -259,6 +259,11 @@ footer a:hover {
     text-align: center;
   }
 
+  .grid-item2, .grid-item4, .grid-item6 {
+    font-size: 15px;
+  }
+
+
 
 /* Responsive CSS */
 @media screen and (max-width: 900px) {
