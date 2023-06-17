@@ -243,30 +243,11 @@ footer a:hover {
     color: white;
 }
 
-.grid-container {
+.rivers-grid {
     display: grid;
-    grid-template-columns: 750px 750px;
-    grid-template-rows: 300px 300px 300px;
-    background-color: #fcfbfb;
     padding: 20px;
-    font-family: "Shadows Into Light", sans-serif;
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .grid-item1, .grid-item3, .grid-item5 {
-    width: 100%;
-  }
-
-  .grid-item2, .grid-item4, .grid-item6 {
-    font-size: 16px;
-  }
-
+    grid-template-columns: 1fr 1fr;
+}
 
 /* Responsive CSS */
 @media screen and (max-width: 900px) {
