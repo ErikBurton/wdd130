@@ -245,9 +245,16 @@ footer a:hover {
 
 .rivers-grid {
     display: grid;
-    padding: 20px;
+    padding: 30px;
+    font-size: 17px;
+    justify-content: space-evenly;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
 }
+
+
+
 
 /* Responsive CSS */
 @media screen and (max-width: 900px) {
