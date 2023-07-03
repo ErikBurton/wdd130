@@ -67,12 +67,12 @@ header {
     color: var(--nav-hover-link-color);
   }
 
-
 /* Title styling */
 .title {
     font-family: var(--heading-font);
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: solid black 6px;
     background-color: var(--secondary-color);
     color: var(--primary-color);
@@ -136,12 +136,13 @@ header {
   #gen1-image {
     max-width: 100%;
     height: auto;
+    padding-top: 40px;
   }
 
   #gen2-image {
     max-width: 100%;
     height: auto;
-  }
+ }
 
   #gen3-image {
     max-width: 100%;
