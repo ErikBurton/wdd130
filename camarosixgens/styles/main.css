@@ -62,7 +62,7 @@ header {
     font-size: 25px;
   }
 
-  .navbar-links :hover {
+  .navbar-links:hover {
     background-color: var(--nav-hover-background-color);
     color: var(--nav-hover-link-color);
   }
@@ -120,6 +120,34 @@ header {
     padding-right: 20px;
     padding-bottom: 20px;    
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  #gen1-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #gen2-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #gen3-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
 
  /* Footer styling */
  .footer {

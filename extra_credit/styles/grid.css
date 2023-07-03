@@ -1,0 +1,94 @@
+/******************************************************************************
+START grid layout extra credit
+******************************************************************************/
+
+* {
+    box-sizing: border-box;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 2em;
+    background-color: lightgray;
+  }
+  
+  .grid1 h1 {
+    grid-column: 1 / -1;
+    
+    text-align: left;
+  }
+  
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: lightblue;
+    
+  }
+  .grid2 h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: lightgoldenrodyellow;    
+  }
+  
+  .grid3 h3 {
+    
+  }
+  
+  .grid4 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: lightpink;    
+  }
+  
+  .grid4 h2 {
+    
+  }
+  
+  section {
+    grid-template-columns: 1fr 5fr;
+    
+  }
+  
+  section h2 {
+    
+  }
+  
+  form {
+    
+  }
+  
+  
+  legend {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  fieldset > div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+  }
+  
+  label {
+    text-align: right;
+    
+  }
+  
+  input {
+    text-align: left;
+    width: 100%;
+    
+  }
+  
+  button {
+    
+  }
+  
+  section > div {
+    
+  }
