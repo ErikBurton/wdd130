@@ -62,8 +62,16 @@ header {
     font-size: 25px;
   }
 
+  .navbar-links a.active {
+    color: aqua;
+  }
+
   .navbar-links:hover {
     background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+  }
+
+  .navbar-links:hover a.active {
     color: var(--nav-hover-link-color);
   }
 
@@ -167,8 +175,8 @@ header {
   }
   
   .footer-right img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-left: 5px;
   }
 
