@@ -172,14 +172,14 @@ header {
   
 
  /* Footer styling */
- .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--accent2-color);
-    color: var(--headline-color-on-color);
-    padding: 10px;
-  }
+  footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--accent2-color);
+      color: var(--headline-color-on-color);
+      padding: 10px;
+    }
   
   .footer-left a {
     text-decoration: none;
